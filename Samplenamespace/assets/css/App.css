@@ -1,0 +1,85 @@
+#form-file-upload {
+  text-align: center;
+  padding: 20px;
+  border: 2px gray dashed;
+  border-radius: 6px;
+  width: 40%;
+  margin: auto;
+}
+
+#drag-file-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#header{
+    text-align: right;
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#label-file-upload {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 1rem;
+  border-style: dashed;
+  border-color:slategrey;
+  background-color: white;
+}
+
+#file-pic{
+    height: 10rem;
+    border-color: black;
+}
+
+.upload-button {
+  background-color: peachpuff;
+  color: black;
+  border-color: orange;
+}
+
+.upload-button:hover {
+  text-decoration-line: underline;
+}
+
+#cancel-button{
+  width: 25%;
+  height: 10%;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+th, td {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+table{
+  width: 155%;
+}
+#attach-button{
+  width: 25%;
+  height: 10%;
+  background-color: black;
+  border-radius: 6px;
+  color: white;
+  margin-left: 10px;
+}
+
+svg{
+  width: 60%;
+  height: 60%;
+}
